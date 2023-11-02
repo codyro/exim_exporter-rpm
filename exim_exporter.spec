@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           exim_exporter
 Version:        1.6.1
 Release:        1%{?dist}
