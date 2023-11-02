@@ -1,0 +1,12 @@
+[Unit]
+Description=Exim Exporter
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/sysconfig/exim_exporter
+ExecStart=/usr/bin/exim_exporter $ARGS
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

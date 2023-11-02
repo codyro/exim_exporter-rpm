@@ -1,0 +1,1 @@
+ARGS="--exim.log-path=/var/log --exim.mainlog=/var/log/exim_mainlog --exim.rejectlog=/var/log/exim_rejectlog --exim.executable=exim --exim.input-path=/var/spool/exim/input --web.listen-address=127.0.0.1:9636"
