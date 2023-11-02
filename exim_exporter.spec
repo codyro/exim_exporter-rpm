@@ -10,6 +10,7 @@ Source1:        exim_exporter.service
 Source2:        exim_exporter-sysconfig
 
 BuildRequires:  golang >= 1.17
+BuildRequires:  systemd-rpm-macros
 
 %description
 Exim Exporter for Prometheus
